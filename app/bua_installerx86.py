@@ -749,10 +749,10 @@ UI_FONTS = load_console_fonts()
 BG = (10, 13, 18)
 CARD = (27, 35, 45)
 CARD_HI = (36, 48, 62)
-ACCENT = (58, 166, 255)
+ACCENT = (240, 72, 72)
 FG = (236, 242, 248)
 MUTED = (139, 152, 166)
-SELECT = (58, 166, 255)
+SELECT = (240, 72, 72)
 SUCCESS = (76, 205, 140)
 FOOTER_BG = (6, 8, 12)
 
@@ -2363,7 +2363,7 @@ def draw_app_details(surf, panel, key: str):
         chip = draw_chip(surf, t("installed"), f["small"], (chip_x, y), (196, 245, 218), (24, 82, 54))
         chip_x = chip.right + S(8)
     if any(k == key for k, _cmd in INSTALL_QUEUE):
-        chip = draw_chip(surf, t("queued"), f["small"], (chip_x, y), (205, 230, 255), (26, 70, 120))
+        chip = draw_chip(surf, t("queued"), f["small"], (chip_x, y), (255, 214, 214), (120, 26, 26))
         chip_x = chip.right + S(8)
     if SELECTED_APPS.get(key, False):
         badge_r = (f["small"].get_height() + S(8)) // 2
@@ -4269,7 +4269,7 @@ class QueueScreen(BaseScreen):
                 selected = i == self.idx
                 if selected:
                     rect = rect.inflate(S(8), S(8))
-                draw_tile(screen, rect, selected, radius=S(12), fill=ACCENT if selected else (30, 64, 104))
+                draw_tile(screen, rect, selected, radius=S(12), fill=ACCENT if selected else (104, 30, 30))
                 label = f"{t('start_install')} ({len(INSTALL_QUEUE)} {t('items_lowercase')})"
                 img = f["tile"].render(label, True, (255, 255, 255))
                 tri = S(14)
