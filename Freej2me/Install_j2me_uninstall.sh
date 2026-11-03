@@ -5,7 +5,7 @@
 # Freej2me at all, then whether to remove each shared part. To answer yes to
 # everything without asking (in the BUA app: LB+RB on the installed apps
 # screen):
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/Freej2me/Install_j2me_uninstall.sh | bash -s -- --ignore-warning
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/Freej2me/Install_j2me_uninstall.sh | bash -s -- --ignore-warning
 
 ADDON_NAME="freej2me"
 ADDON_DIR="/userdata/system/add-ons/${ADDON_NAME}"

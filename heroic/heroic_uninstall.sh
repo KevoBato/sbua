@@ -12,7 +12,7 @@
 # settings; No keeps all three, so a reinstalled Heroic still finds the games.
 # To remove everything without asking (in the BUA app: LB+RB on the installed
 # apps screen):
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/heroic/heroic_uninstall.sh | bash -s -- --ignore-warning
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/heroic/heroic_uninstall.sh | bash -s -- --ignore-warning
 
 INSTALL_DIR="/userdata/system/add-ons/heroic"
 DESKTOP_FILE="/usr/share/applications/heroic.desktop"

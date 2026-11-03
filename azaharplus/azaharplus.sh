@@ -4,8 +4,8 @@
 install_dir="/userdata/system/add-ons/azaharplus"
 es_config_dir="/userdata/system/configs/emulationstation"
 user_site="/userdata/system/.local/lib/$(python3 -c 'import sys; print(f"python{sys.version_info.major}.{sys.version_info.minor}")')/site-packages"
-base_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/azaharplus"
-bua_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app"
+base_url="https://github.com/KevoBato/sbua/raw/main/azaharplus"
+bua_url="https://github.com/KevoBato/sbua/raw/main/app"
 
 # Ensure BUA Python hook is present
 if [ ! -f "$user_site/usercustomize.py" ]; then

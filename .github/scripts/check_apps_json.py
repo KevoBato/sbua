@@ -86,7 +86,7 @@ KNOWN_MISSING_UNINSTALL = {
 
 # A script in this repo, in any of the URL forms the app lists use
 REPO_SCRIPT = re.compile(
-    r"batocera-unofficial-addons/batocera-unofficial-addons/"
+    r"KevoBato/sbua/"
     r"(?:raw/refs/heads/main|raw/main|main)/(\S+?\.sh)(?=\s|$)"
 )
 

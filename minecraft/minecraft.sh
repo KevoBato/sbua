@@ -44,18 +44,18 @@ if [ "$edition_choice" == "1" ]; then
 
 elif [ "$edition_choice" == "2" ]; then
     echo "Eaglercraft selected."
-    appimage_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/minecraft/minecraft_3.sh"
+    appimage_url="https://github.com/KevoBato/sbua/raw/refs/heads/main/minecraft/minecraft_3.sh"
     app_dir="/userdata/system/add-ons/minecraft/minecraft-eaglercraft"
 
 elif [ "$edition_choice" == "3" ]; then
     echo "Official Java Edition (controller support) selected."
-    appimage_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/minecraft/minecraft_2.sh"
+    appimage_url="https://github.com/KevoBato/sbua/raw/refs/heads/main/minecraft/minecraft_2.sh"
     app_dir="/userdata/system/add-ons/minecraft"
 
 elif [ "$edition_choice" == "4" ]; then
     echo "Bedrock Edition selected (BUA installer)."
     # Use BUA Bedrock installer script instead of a hard-coded AppImage
-    appimage_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/minecraft/bedrock.sh"
+    appimage_url="https://github.com/KevoBato/sbua/raw/refs/heads/main/minecraft/bedrock.sh"
 fi
 
 # Step 4: Download or Run the AppImage / installer script
@@ -172,12 +172,12 @@ if [ "$edition_choice" == "1" ] || [ "$edition_choice" == "3" ]; then
 
     if [ "$edition_choice" == "1" ]; then
         echo "Adding Minecraft Java Edition to Ports menu..."
-        logo_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/minecraft/extra/minecraft-java-logo.png"
+        logo_url="https://github.com/KevoBato/sbua/raw/main/minecraft/extra/minecraft-java-logo.png"
         entry_name="Minecraft Java Edition"
         script_name="MinecraftJava.sh"
     else
         echo "Adding Minecraft to Ports menu..."
-        logo_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/minecraft/extra/minecraft-logo.png"
+        logo_url="https://github.com/KevoBato/sbua/raw/main/minecraft/extra/minecraft-logo.png"
         entry_name="Minecraft"
         script_name="Minecraft.sh"
     fi

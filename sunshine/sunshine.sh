@@ -38,7 +38,7 @@ elif [ -f /userdata/system/add-ons/.dep/libwayland-client.so.0 ]; then
     rm -f /userdata/system/add-ons/sunshine/lib/libwayland-client.so.0
     cp -fL /userdata/system/add-ons/.dep/libwayland-client.so.0 /userdata/system/add-ons/sunshine/lib/libwayland-client.so.0
 else
-    curl -fL https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/.dep/libwayland-client.so.0 -o /userdata/system/add-ons/sunshine/lib/libwayland-client.so.0 || echo "Failed to download libwayland-client.so.0, Sunshine may not start."
+    curl -fL https://github.com/KevoBato/sbua/raw/refs/heads/main/.dep/libwayland-client.so.0 -o /userdata/system/add-ons/sunshine/lib/libwayland-client.so.0 || echo "Failed to download libwayland-client.so.0, Sunshine may not start."
 fi
 
 # Create a persistent configuration directory
@@ -273,7 +273,7 @@ chmod +x /userdata/system/services/sunshine
 
 echo "Applying Nvidia patches for a smoother experience..."
 # Apply Nvidia patches if necessary
-curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/nvidiapatch/nvidiapatch.sh | bash
+curl -L https://github.com/KevoBato/sbua/raw/main/nvidiapatch/nvidiapatch.sh | bash
 
 # Enable and start the Sunshine service
 batocera-services enable sunshine

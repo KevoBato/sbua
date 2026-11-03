@@ -8,7 +8,7 @@ DEST_DIR="/userdata/roms/windows"
 MESSAGE=""  # Leave empty if no message is needed
 GAME_LIST="/userdata/roms/windows/gamelist.xml"
 APP_NAME="Sonic Robo Blast 2"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/windows/extra/srb2-logo.png"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/windows/extra/srb2-logo.png"
 LOGO_PATH="/userdata/roms/windows/images/srb2-logo.png"
 
 # Ensure destination directory exists

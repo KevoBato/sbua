@@ -15,8 +15,8 @@ BIN_DIR="${PORTS_DIR}"
 FLATPAK_GAMELIST="/userdata/roms/flatpak/gamelist.xml"
 
 # URLs
-MARQUEE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/blob/main/everest/extra/everest-marquee.jpg?raw=true"
-THUMB_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/blob/main/everest/extra/everest-thumb.png?raw=true"
+MARQUEE_URL="https://github.com/KevoBato/sbua/blob/main/everest/extra/everest-marquee.jpg?raw=true"
+THUMB_URL="https://github.com/KevoBato/sbua/blob/main/everest/extra/everest-thumb.png?raw=true"
 
 MARQUEE_IMG="${IMAGES_DIR}/${APP_EXEC}-marquee.png"
 THUMB_IMG="${IMAGES_DIR}/${APP_EXEC}-thumb.png"

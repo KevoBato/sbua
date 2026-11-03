@@ -15,8 +15,8 @@ BIN_DIR="${PORTS_DIR}"
 FLATPAK_GAMELIST="/userdata/roms/flatpak/gamelist.xml"
 
 # URLs
-MARQUEE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/itchio/extra/itchio-marquee.png"
-THUMB_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/itchio/extra/itchio-thumb.png"
+MARQUEE_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/itchio/extra/itchio-marquee.png"
+THUMB_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/itchio/extra/itchio-thumb.png"
 
 MARQUEE_IMG="${IMAGES_DIR}/${APP_EXEC}-marquee.png"
 THUMB_IMG="${IMAGES_DIR}/${APP_EXEC}-thumb.png"

@@ -4,7 +4,7 @@
 APP_NAME="VLC"
 AMD_SUFFIX="vlc.AppImage"
 ARM_SUFFIX=""
-LOGO_URL="https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/vlc/extra/VLC-Logo.jpg"
+LOGO_URL="https://raw.githubusercontent.com/KevoBato/sbua/main/vlc/extra/VLC-Logo.jpg"
 REPO_BASE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/releases/download/AppImages"
 
 # -----------------------------------------------------------------------------------------------------------------
@@ -112,7 +112,7 @@ curl http://127.0.0.1:1234/reloadgames
 APPNAME="VLC"
 DESKTOP_FILE="/usr/share/applications/${APPNAME}.desktop"
 PERSISTENT_DESKTOP="/userdata/system/configs/${APPNAME,,}/${APPNAME}.desktop"
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/${APPNAME,,}/extra/icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/${APPNAME,,}/extra/icon.png"
 
 mkdir -p "/userdata/system/configs/${APPNAME,,}"
 mkdir -p "/userdata/system/add-ons/${APPNAME,,}/extra"

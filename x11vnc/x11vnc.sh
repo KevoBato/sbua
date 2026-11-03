@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # === CONFIG ===
-TAR_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/x11vnc/extra/x11vnc.tar.gz"
-SERVICE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/x11vnc/extra/x11vnc"
+TAR_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/x11vnc/extra/x11vnc.tar.gz"
+SERVICE_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/x11vnc/extra/x11vnc"
 ADDONS_DIR="/userdata/system/add-ons"
 SERVICES_DIR="/userdata/system/services"
 TAR_NAME="x11vnc.tar.gz"
@@ -16,7 +16,7 @@ WAYLAND_SOCK=$(ls /run/user/0/wayland-* 2>/dev/null | head -n1)
 if [ -z "$X11_SOCK" ]; then
     if [ -n "$WAYLAND_SOCK" ]; then
         if dialog --yesno "This system is using Wayland, not X11.\n\nx11vnc requires X11. Would you like to install wayvnc instead?" 9 55; then
-            curl -s "https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wayvnc/wayvnc.sh" | bash
+            curl -s "https://github.com/KevoBato/sbua/raw/refs/heads/main/wayvnc/wayvnc.sh" | bash
         fi
     else
         dialog --msgbox "ERROR: No display server detected.\n\nMake sure X11 is running before installing x11vnc." 8 55

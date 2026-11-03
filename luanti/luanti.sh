@@ -5,7 +5,7 @@ APP_NAME="Luanti"
 REPO="rollerozxa/luanti-appimage"
 AMD_SUFFIX="-x86_64.AppImage"
 ARM_SUFFIX="-aarch64.AppImage"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/luanti/extra/luanti-logo.jpg"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/luanti/extra/luanti-logo.jpg"
 
 # -----------------------------------------------------------------------------------------------------------------
 

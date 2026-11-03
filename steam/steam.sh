@@ -21,7 +21,7 @@ if ! command -v fusermount3 &> /dev/null; then
     if [ $response -eq 0 ]; then
     clear
         echo "Updating BUA..."
-        curl -L bit.ly/BUAinstaller | bash
+        curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh | bash
     else
         echo "Update declined. Exiting."
         exit 1
@@ -60,11 +60,11 @@ mkdir -p /userdata/system/configs/steam
 mkdir -p /userdata/system/add-ons/steam/extra
 DESKTOP_FILE="/usr/share/applications/Steam.desktop"
 PERSISTENT_DESKTOP="/userdata/system/configs/steam/Steam.desktop"
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/steam/extra/icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/steam/extra/icon.png"
 INSTALL_DIR="/userdata/system/add-ons/steam"
 
 echo "Downloading Steam helper scripts..."
-SCRIPTS_BASE_URL="https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/steam/extra"
+SCRIPTS_BASE_URL="https://raw.githubusercontent.com/KevoBato/sbua/main/steam/extra"
 wget --show-progress -qO "/userdata/system/add-ons/steam/Launcher" "${SCRIPTS_BASE_URL}/Launcher"
 wget --show-progress -qO "/userdata/system/add-ons/steam/create-steam-launchers.sh" "${SCRIPTS_BASE_URL}/create-steam-launchers.sh"
 wget --show-progress -qO "/userdata/system/add-ons/steam/extra/ensure_steam_batocera_conf.sh" "${SCRIPTS_BASE_URL}/ensure_steam_batocera_conf.sh"
@@ -147,13 +147,13 @@ cat <<'EOF' > /userdata/roms/steam/Steam_Big_Picture.sh
 EOF
 chmod +x /userdata/roms/steam/Steam_Big_Picture.sh
 
-KEYS_URL="https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/refs/heads/main/steam/extra/Steam.sh.keys"
+KEYS_URL="https://raw.githubusercontent.com/KevoBato/sbua/refs/heads/main/steam/extra/Steam.sh.keys"
 # Step 5: Download the key mapping file
 echo "Downloading key mapping file..."
 curl -L -o "/userdata/roms/steam/Steam_Big_Picture.sh.keys" "$KEYS_URL"
 # Download the image
 echo "Downloading Steam logo..."
-curl -L -o /userdata/roms/steam/images/steamlogo.jpg https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/steam/extra/logo.jpg
+curl -L -o /userdata/roms/steam/images/steamlogo.jpg https://github.com/KevoBato/sbua/raw/main/steam/extra/logo.jpg
 
 echo "Adding logo to Steam entry in gamelist.xml..."
 xmlstarlet ed -s "/gameList" -t elem -n "game" -v "" \

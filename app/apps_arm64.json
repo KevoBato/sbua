@@ -7,8 +7,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/alpinexfce.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/alpinexfce_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/alpinexfce.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/alpinexfce_uninstall.sh | bash"
     },
     {
       "name": "Amazon Luna",
@@ -16,8 +16,8 @@
       "categories": [
         "Game Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/amazonluna/amazonluna-arm64.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/amazonluna/amazonluna-arm64_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/amazonluna/amazonluna-arm64.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/amazonluna/amazonluna-arm64_uninstall.sh | bash"
     },
     {
       "name": "Arch KDE (Webtop)",
@@ -25,8 +25,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/archkde.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/archkde_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/archkde.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/archkde_uninstall.sh | bash"
     },
     {
       "name": "Arr-In-One",
@@ -34,8 +34,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/arrinone.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/arrinone_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/arrinone.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/arrinone_uninstall.sh | bash"
     },
     {
       "name": "Arr-In-One Downloaders",
@@ -43,8 +43,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/arrdownloaders.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/arrdownloaders_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/arrdownloaders.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/arrdownloaders_uninstall.sh | bash"
     },
     {
       "name": "CasaOS",
@@ -52,8 +52,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/casaos.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/casaos_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/casaos.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/casaos_uninstall.sh | bash"
     },
     {
       "name": "Celeste 64",
@@ -61,8 +61,8 @@
       "categories": [
         "Games"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/celeste64/celeste64.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/celeste64/celeste64_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/celeste64/celeste64.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/celeste64/celeste64_uninstall.sh | bash"
     },
     {
       "name": "chdress",
@@ -79,8 +79,8 @@
       "categories": [
         "Game Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/chiaki/chiaki.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/chiaki/chiaki_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/chiaki/chiaki.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/chiaki/chiaki_uninstall.sh | bash"
     },
     {
       "name": "Conty",
@@ -88,8 +88,8 @@
       "categories": [
         "Developer Tools"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/conty/conty.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/conty/conty_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/conty/conty.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/conty/conty_uninstall.sh | bash"
     },
     {
       "name": "Dark Mode",
@@ -97,8 +97,8 @@
       "categories": [
         "Developer Tools"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/dark/dark.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/dark/dark_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/dark/dark.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/dark/dark_uninstall.sh | bash"
     },
     {
       "name": "Desktop (Docker)",
@@ -106,8 +106,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/desktop/desktop.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/desktop/desktop_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/desktop/desktop.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/desktop/desktop_uninstall.sh | bash"
     },
     {
       "name": "Docker",
@@ -115,8 +115,8 @@
       "categories": [
         "Developer Tools"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/docker.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/docker_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/docker.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/docker_uninstall.sh | bash"
     },
     {
       "name": "Emby",
@@ -124,8 +124,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/emby.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/emby_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/emby.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/emby_uninstall.sh | bash"
     },
     {
       "name": "F1",
@@ -133,8 +133,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/f1/f1.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/f1/f1_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/f1/f1.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/f1/f1_uninstall.sh | bash"
     },
     {
       "name": "Firefox",
@@ -142,8 +142,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/firefox/firefox-arm64.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/firefox/firefox-arm64_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/firefox/firefox-arm64.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/firefox/firefox-arm64_uninstall.sh | bash"
     },
     {
       "name": "FreeTube",
@@ -151,8 +151,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/freetube/freetube.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/freetube/freetube_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/freetube/freetube.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/freetube/freetube_uninstall.sh | bash"
     },
     {
       "name": "Greenlight",
@@ -160,8 +160,8 @@
       "categories": [
         "Game Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/greenlight/greenlight_arm64.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/greenlight/greenlight_arm64_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/greenlight/greenlight_arm64.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/greenlight/greenlight_arm64_uninstall.sh | bash"
     },
     {
       "name": "IPTV Nator",
@@ -169,8 +169,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/iptvnator/iptvnator.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/iptvnator/iptvnator_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/iptvnator/iptvnator.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/iptvnator/iptvnator_uninstall.sh | bash"
     },
     {
       "name": "iso2zar",
@@ -187,8 +187,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/jellyfin.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/jellyfin_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/jellyfin.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/jellyfin_uninstall.sh | bash"
     },
     {
       "name": "Jellyfin Player",
@@ -196,8 +196,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/jellyfin-client/jellyfin-client.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/jellyfin-client/jellyfin-client_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/jellyfin-client/jellyfin-client.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/jellyfin-client/jellyfin-client_uninstall.sh | bash"
     },
     {
       "name": "Luanti",
@@ -205,8 +205,8 @@
       "categories": [
         "Games"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/luanti/luanti.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/luanti/luanti_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/luanti/luanti.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/luanti/luanti_uninstall.sh | bash"
     },
     {
       "name": "Minecraft",
@@ -214,8 +214,8 @@
       "categories": [
         "Games"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/minecraft/bedrock.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/minecraft/bedrock_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/minecraft/bedrock.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/minecraft/bedrock_uninstall.sh | bash"
     },
     {
       "name": "Nazi Zombies Portable",
@@ -223,8 +223,8 @@
       "categories": [
         "Games"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/nzp/nzp.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/nzp/nzp_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/nzp/nzp.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/nzp/nzp_uninstall.sh | bash"
     },
     {
       "name": "npsget",
@@ -241,8 +241,8 @@
       "categories": [
         "Developer Tools"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/overlay-remove/overlay-remove.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/overlay-remove/overlay-remove_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/overlay-remove/overlay-remove.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/overlay-remove/overlay-remove_uninstall.sh | bash"
     },
     {
       "name": "PortMaster",
@@ -250,8 +250,8 @@
       "categories": [
         "Game Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/portmaster/portmaster.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/portmaster/portmaster_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/portmaster/portmaster.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/portmaster/portmaster_uninstall.sh | bash"
     },
     {
       "name": "Prism Launcher",
@@ -259,8 +259,8 @@
       "categories": [
         "Games"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/prismlauncher/prismlauncher.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/prismlauncher/prismlauncher_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/prismlauncher/prismlauncher.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/prismlauncher/prismlauncher_uninstall.sh | bash"
     },
     {
       "name": "Raspberry Pi Imager",
@@ -268,8 +268,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/rpi/rpi.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/rpi/rpi_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/rpi/rpi.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/rpi/rpi_uninstall.sh | bash"
     },
     {
       "name": "RGSX",
@@ -287,8 +287,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/desktop/ri-desktop.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/desktop/ri-desktop_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/desktop/ri-desktop.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/desktop/ri-desktop_uninstall.sh | bash"
     },
     {
       "name": "Soar",
@@ -296,8 +296,8 @@
       "categories": [
         "Developer Tools"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/soar/soar.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/soar/soar_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/soar/soar.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/soar/soar_uninstall.sh | bash"
     },
     {
       "name": "Sunshine",
@@ -305,8 +305,8 @@
       "categories": [
         "Game Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/sunshine/sunshine-arm64.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/sunshine/sunshine-arm64_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/sunshine/sunshine-arm64.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/sunshine/sunshine-arm64_uninstall.sh | bash"
     },
     {
       "name": "Super Mario X",
@@ -314,8 +314,8 @@
       "categories": [
         "Games"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supermariox/supermariox.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supermariox/supermariox_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/supermariox/supermariox.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/supermariox/supermariox_uninstall.sh | bash"
     },
     {
       "name": "SuperTuxKart",
@@ -323,8 +323,8 @@
       "categories": [
         "Games"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supertuxkart/supertuxkart.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supertuxkart/supertuxkart_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/supertuxkart/supertuxkart.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/supertuxkart/supertuxkart_uninstall.sh | bash"
     },
     {
       "name": "Tailscale",
@@ -332,8 +332,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/tailscale/tailscale.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/tailscale/tailscale_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/tailscale/tailscale.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/tailscale/tailscale_uninstall.sh | bash"
     },
     {
       "name": "Telegraf",
@@ -341,8 +341,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/telegraf/telegraf.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/telegraf/telegraf_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/telegraf/telegraf.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/telegraf/telegraf_uninstall.sh | bash"
     },
     {
       "name": "Ubuntu MATE (Webtop)",
@@ -350,8 +350,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/ubuntumate.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/ubuntumate_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/ubuntumate.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/ubuntumate_uninstall.sh | bash"
     },
     {
       "name": "UmbrelOS",
@@ -359,8 +359,8 @@
       "categories": [
         "Docker Menu"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/umbrelos.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/umbrelos_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/umbrelos.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/umbrelos_uninstall.sh | bash"
     },
     {
       "name": "VClean",
@@ -368,8 +368,8 @@
       "categories": [
         "Developer Tools"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vclean/vclean.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vclean/vclean_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/vclean/vclean.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/vclean/vclean_uninstall.sh | bash"
     },
     {
       "name": "Vesktop",
@@ -377,8 +377,8 @@
       "categories": [
         "System Utilities"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vesktop/vesktop.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vesktop/vesktop_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/vesktop/vesktop.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/vesktop/vesktop_uninstall.sh | bash"
     },
     {
       "name": "WayVNC",
@@ -386,8 +386,8 @@
       "categories": [
         "Developer Tools"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wayvnc/wayvnc.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wayvnc/wayvnc_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/wayvnc/wayvnc.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/wayvnc/wayvnc_uninstall.sh | bash"
     },
     {
       "name": "WayVNC Headless",
@@ -395,8 +395,8 @@
       "categories": [
         "Developer Tools"
       ],
-      "install": "curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wayvnc_headless/wayvnc_headless.sh | bash",
-      "uninstall": "curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wayvnc_headless/wayvnc_headless_uninstall.sh | bash"
+      "install": "curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/wayvnc_headless/wayvnc_headless.sh | bash",
+      "uninstall": "curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/wayvnc_headless/wayvnc_headless_uninstall.sh | bash"
     }
   ]
 }

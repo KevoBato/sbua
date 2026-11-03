@@ -1,18 +1,19 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="app/extra/batocera-unofficial-addons-light.png">
-    <img src="app/extra/batocera-unofficial-addons.png" alt="Batocera Unofficial Add-ons logo" width="320">
+    <img src="app/extra/batocera-unofficial-addons.png" alt="SBUA - SUPER Unofficial Batocera Add-Ons logo" width="320">
   </picture>
 </p>
 
-# Unofficial Add-ons for Batocera
+# SBUA - SUPER Unofficial Batocera Add-Ons
 
-<img alt="Discord" src="https://img.shields.io/discord/1322750191756906638?style=for-the-badge&label=Discord&link=https%3A%2F%2Fdiscord.batoaddons.app"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/batocera-unofficial-addons/batocera-unofficial-addons?style=for-the-badge"> <img alt="GitHub Created At" src="https://img.shields.io/github/created-at/batocera-unofficial-addons/batocera-unofficial-addons?style=for-the-badge"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/batocera-unofficial-addons/batocera-unofficial-addons?style=for-the-badge">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KevoBato/sbua?style=for-the-badge"> <img alt="GitHub Created At" src="https://img.shields.io/github/created-at/KevoBato/sbua?style=for-the-badge"> <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/KevoBato/sbua?style=for-the-badge">
 
 ---
 
-**Unofficial add-ons for Batocera, in no way affiliated with the Batocera development team! Install at your own risk.**  
-**You will find no support in the official Discord—better to ask for support in our own Discord!**
+**SBUA is a fork of [Batocera Unofficial Add-Ons (BUA)](https://github.com/batocera-unofficial-addons/batocera-unofficial-addons): the same add-ons and app, with its own look and extras.**  
+**Unofficial add-ons for Batocera, in no way affiliated with the Batocera development team or with BUA! Install at your own risk.**  
+**You will find no support in the official Batocera Discord.**
 
 **Contributions welcome — please provide evidence of your addition working to speed up the process.**
 
@@ -21,7 +22,7 @@
 ## 🚀 Installation
 
 ```bash
-curl -L install.batoaddons.app | bash
+curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh | bash
 ```
 
 Individual install links won't be provided — the app is needed to handle dependencies. Install the app with the above command, then navigate the menus to find the app you want to install.
@@ -45,11 +46,15 @@ In accordance with the GPL:
 
 ## 🧠 Resources
 
-- **[Batocera Unofficial Add-Ons Wiki](https://wiki.batoaddons.app)** – Guides and support info
-- **[Batocera Unofficial Add-Ons Discord](https://discord.gg/Uc9BVbDH9e)** – Community support
+SBUA is built on BUA, so most of BUA's guides apply:
+
+- **[Batocera Unofficial Add-Ons Wiki](https://wiki.batoaddons.app)** – BUA's guides and support info
+- **[Batocera Unofficial Add-Ons Discord](https://discord.gg/Uc9BVbDH9e)** – BUA's community
 
 ---
 ## 🙏 Special Thanks
+
+SBUA wouldn't exist without **BUA** and everyone behind it. BUA's own thanks, kept as they wrote them:
 
 This project wouldn't be possible without the passion, creativity, and collaboration of the retro and open-source communities.
 
@@ -85,8 +90,8 @@ Special thanks to:
 This is a community project and is not affiliated with the official Batocera team.  
 Use at your own discretion. For help, join the community Discord.
 
-[![Stargazers](https://reporoster.com/stars/dark/batocera-unofficial-addons/batocera-unofficial-addons)](https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/stargazers)
-[![Stargazers over time](https://starchart.cc/batocera-unofficial-addons/batocera-unofficial-addons.svg?variant=dark)](https://starchart.cc/batocera-unofficial-addons/batocera-unofficial-addons)
+[![Stargazers](https://reporoster.com/stars/dark/KevoBato/sbua)](https://github.com/KevoBato/sbua/stargazers)
+[![Stargazers over time](https://starchart.cc/KevoBato/sbua.svg?variant=dark)](https://starchart.cc/KevoBato/sbua)
 
 
                     

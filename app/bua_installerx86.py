@@ -83,7 +83,7 @@ TRANSLATION_DIRS = [
 ]
 
 # GitHub URL for translations
-TRANSLATION_BASE_URL = "https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/app/translation"
+TRANSLATION_BASE_URL = "https://raw.githubusercontent.com/KevoBato/sbua/main/app/translation"
 
 def fetch_url_with_retry(url: str, headers: dict, timeout: int = 5, retries: int = 2) -> bytes:
     """
@@ -514,7 +514,7 @@ def mark_uninstalled(app_name: str):
 # (and the changelog shown after an update) there, not here.
 
 # Base URL for BUA repository scripts
-BUA_BASE_URL = "https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main"
+BUA_BASE_URL = "https://github.com/KevoBato/sbua/raw/refs/heads/main"
 
 APPS_JSON_URL = f"{BUA_BASE_URL}/app/apps_x86.json"
 
@@ -764,7 +764,7 @@ BUTTON_ICONS: Dict[str, pygame.Surface] = {}
 # You can point to hosted images via per-key envs (e.g. BUA_BTN_A_URL)
 # or set a common base URL via BUA_BTN_BASE_URL where files are named as below.
 DEFAULT_BUTTONS_BASE_URL = os.environ.get("BUA_BTN_BASE_URL") or \
-    "https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app/extra"
+    "https://github.com/KevoBato/sbua/raw/main/app/extra"
 
 # Controller style detection and mapping
 PAD_STYLE = "xbox"  # xbox | playstation | nintendo | generic | keyboard
@@ -1773,7 +1773,7 @@ def draw_monogram(surf, rect, name: str, font):
 
 LOGO_DIR = "/userdata/system/add-ons/bua_logos"
 LOGO_INDEX_FILE = os.path.join(LOGO_DIR, "index.json")
-REPO_TREE_URL = "https://api.github.com/repos/batocera-unofficial-addons/batocera-unofficial-addons/git/trees/main?recursive=1"
+REPO_TREE_URL = "https://api.github.com/repos/KevoBato/sbua/git/trees/main?recursive=1"
 LOGO_INDEX_MAX_AGE = 7 * 24 * 3600  # guess again after a week, to pick up new logos
 # Images that are not logos: key maps, controller pictures, backgrounds
 LOGO_SKIP = re.compile(r"(key|joy|acima|abaixo|direita|esquerda|button|screenshot|controller|wallpaper|background|splash)", re.I)
@@ -1822,7 +1822,7 @@ def _save_logo_index():
 
 
 def _app_folder(app: str) -> str | None:
-    m = re.search(r"batocera-unofficial-addons/(?:raw/refs/heads/main|raw/main|refs/heads/main|main)/([^/\s]+)/", APPS.get(app, ""))
+    m = re.search(r"KevoBato/sbua/(?:raw/refs/heads/main|raw/main|refs/heads/main|main)/([^/\s]+)/", APPS.get(app, ""))
     return m.group(1) if m else None
 
 
@@ -2609,7 +2609,7 @@ class MenuScreen(BaseScreen):
         self.all_items = list(items)
         self.items = list(items)
         self.idx = 0
-        self.stats = self.calculate_stats() if title == "Batocera Unofficial Add-Ons" else None
+        self.stats = self.calculate_stats() if title == t("main_title") else None
         self.search_mode = False
         self.search_query = ""
         self.keyboard = OnScreenKeyboard()
@@ -2693,7 +2693,7 @@ class MenuScreen(BaseScreen):
                 if e.key in (pygame.K_RETURN, pygame.K_KP_ENTER):
                     self.activate()
                 if e.key == pygame.K_ESCAPE:
-                    if self.title != "Batocera Unofficial Add-Ons":
+                    if self.title != t("main_title"):
                         pop_screen()
                     else:
                         clean_exit(0)
@@ -2707,7 +2707,7 @@ class MenuScreen(BaseScreen):
                 if e.button in (BTN_A,):
                     self.activate()
                 if e.button in (BTN_B, BTN_BACK):
-                    if self.title != "Batocera Unofficial Add-Ons":
+                    if self.title != t("main_title"):
                         pop_screen()
                 if e.button in (BTN_START,):
                     self.activate()
@@ -4779,7 +4779,7 @@ def get_script_dates() -> Dict[str, str]:
 
     _SCRIPT_DATES_CACHE = {}
     try:
-        script_dates_url = "https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/SCRIPT_DATES.md"
+        script_dates_url = "https://raw.githubusercontent.com/KevoBato/sbua/main/SCRIPT_DATES.md"
         req = urllib.request.Request(script_dates_url, headers={"User-Agent": "BUA-Updater"})
         with urllib.request.urlopen(req, timeout=10) as resp:
             content = resp.read().decode("utf-8", "ignore")
@@ -5995,7 +5995,7 @@ def play_splash_and_load():
     loader_thread.start()
 
     # Download and play splash video while loading
-    splash_url = "https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/app/extra/splash.mp4"
+    splash_url = "https://raw.githubusercontent.com/KevoBato/sbua/main/app/extra/splash.mp4"
     splash_file = None
 
     try:
@@ -6141,7 +6141,7 @@ def play_splash_and_load():
 def setup_custom_service_handler():
     """Check if custom_service_handler exists, download if missing, and enable it."""
     SERVICE_FILE = "/userdata/system/services/custom_service_handler"
-    SERVICE_URL = "https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/app/custom_service_handler"
+    SERVICE_URL = "https://raw.githubusercontent.com/KevoBato/sbua/main/app/custom_service_handler"
 
     try:
         # Check if service file already exists
@@ -6196,11 +6196,11 @@ def live_update():
     # Live-update / reinstall BUA silently
     try:
         subprocess.run(
-            ["bash", "-lc", "curl -L install.batoaddons.app | bash"],
+            ["bash", "-lc", "curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh | bash"],
             check=False
         )
     except Exception as e:
-        print(f"[BUA] Failed to reinstall BUA from install.batoaddons.app: {e}")
+        print(f"[BUA] Failed to reinstall BUA from https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh: {e}")
 
     # Ensure usercustomize.py is present (BUA Python hook for add-on generators)
     usercustomize_path = f"/userdata/system/.local/lib/python{sys.version_info.major}.{sys.version_info.minor}/site-packages/usercustomize.py"
@@ -6209,7 +6209,7 @@ def live_update():
             os.makedirs(os.path.dirname(usercustomize_path), exist_ok=True)
             subprocess.run(
                 ["curl", "-fLs", "-o", usercustomize_path,
-                 "https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/app/usercustomize.py"],
+                 "https://raw.githubusercontent.com/KevoBato/sbua/main/app/usercustomize.py"],
                 check=False
             )
         except Exception as e:
@@ -6224,11 +6224,11 @@ def check_symlink_manager_and_warn():
     # Re-run the BUA installer (non-fatal if it fails)
     try:
         subprocess.run(
-            ["bash", "-lc", "curl -L install.batoaddons.app | bash"],
+            ["bash", "-lc", "curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh | bash"],
             check=False
         )
     except Exception as e:
-        print(f"[BUA] Failed to reinstall BUA from install.batoaddons.app: {e}")
+        print(f"[BUA] Failed to reinstall BUA from https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh: {e}")
 
     # Simple BUA-style modal message using pygame
     title = "Reinstallation Required"

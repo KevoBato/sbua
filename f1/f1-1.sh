@@ -2,7 +2,7 @@
 
 # Set variables
 APP_NAME="F1"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/f1/extra/f1key.jpg"   # Replace with actual logo URL
+LOGO_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/f1/extra/f1key.jpg"   # Replace with actual logo URL
 LOGO_PATH="/userdata/roms/ports/images/${APP_NAME,,}-logo.jpg"
 GAME_LIST="/userdata/roms/ports/gamelist.xml"
 
@@ -12,8 +12,8 @@ DRL_FILE="$TEMP_DIR/Antimicrox.DRL"
 EXTRACT_DIR="$TEMP_DIR/extracted"
 DEST_DIR="/"
 PORTS_DIR="/userdata/roms/ports"
-MARQUEE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/f1/extra/f1key.jpg"
-THUMB_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/f1/extra/f1key.jpg"
+MARQUEE_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/f1/extra/f1key.jpg"
+THUMB_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/f1/extra/f1key.jpg"
 
 MARQUEE_IMG="${IMAGES_DIR}/${APP_NAME}-marquee.png"
 THUMB_IMG="${IMAGES_DIR}/${APP_NAME}-thumb.png"

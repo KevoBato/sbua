@@ -4,7 +4,7 @@
 APPNAME=java
 APPHOME=azul.com/downloads
 APPPATH=/userdata/system/add-ons/$APPNAME/$APPNAME.AppImage
-REPO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/${APPNAME}"
+REPO_URL="https://github.com/KevoBato/sbua/raw/main/${APPNAME}"
 
 # Define Launcher Command
 COMMAND='mkdir -p /userdata/system/add-ons/'$APPNAME'/home /userdata/system/add-ons/'$APPNAME'/config /userdata/system/add-ons/'$APPNAME'/roms 2>/dev/null; \

@@ -6,7 +6,7 @@ set -euo pipefail
 #
 # Asks first when the game is running. To close it and uninstall without
 # asking (in the BUA app: LB+RB on the installed apps screen):
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/nzp/nzp_uninstall.sh | bash -s -- --ignore-warning
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/nzp/nzp_uninstall.sh | bash -s -- --ignore-warning
 ###############################################################################
 
 INSTALL_DIR="/userdata/roms/ports/nzp"

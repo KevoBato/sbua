@@ -1,9 +1,9 @@
 #!/bin/bash
 # netwatch installer for Batocera. Run it again to update; your
 # netwatch.conf and aliases.conf are kept.
-#   curl -L https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/netwatch/netwatch.sh | bash
+#   curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/netwatch/netwatch.sh | bash
 
-REPO_URL="https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/netwatch"
+REPO_URL="https://raw.githubusercontent.com/KevoBato/sbua/main/netwatch"
 INSTALL_DIR="/userdata/system/add-ons/netwatch"
 SERVICE="/userdata/system/services/netwatch"
 

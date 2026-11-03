@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # === CONFIG ===
-SERVICE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vclean/extra/versionclean"
+SERVICE_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/vclean/extra/versionclean"
 SERVICES_DIR="/userdata/system/services"
 SERVICE_NAME="versionclean"
 

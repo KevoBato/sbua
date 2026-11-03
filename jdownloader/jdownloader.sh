@@ -2,7 +2,7 @@
 
 # Variables
 APPNAME="JDownloader"
-PACKAGE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/jdownloader/extra/jdownloader.tar.gz"
+PACKAGE_URL="https://github.com/KevoBato/sbua/raw/main/jdownloader/extra/jdownloader.tar.gz"
 INSTALL_DIR="/userdata/system/add-ons/jdownloader"
 ICON_URL="https://upload.wikimedia.org/wikipedia/commons/f/f7/Jdownloader.png"
 ICON_PATH="/userdata/system/add-ons/${APPNAME,,}/extra/${APPNAME,,}-icon.png"

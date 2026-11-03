@@ -4,7 +4,7 @@
 mkdir -p /userdata/system/add-ons/zenity/.tmp 2>/dev/null && cd /userdata/system/add-ons/zenity/.tmp
 
 # Define the GitHub API URL
-API_URL="https://api.github.com/repos/batocera-unofficial-addons/batocera-unofficial-addons/contents/zenity"
+API_URL="https://api.github.com/repos/KevoBato/sbua/contents/zenity"
 
 # Fetch the file list from the GitHub API
 curl -s "$API_URL/bin" | grep '"download_url":' | cut -d '"' -f 4 > bin_list.txt

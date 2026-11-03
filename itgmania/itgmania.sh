@@ -3,7 +3,7 @@
 # Variables
 install_dir="/userdata/system/add-ons/itgmania"
 ports_dir="/userdata/roms/ports"
-base_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/itgmania"
+base_url="https://github.com/KevoBato/sbua/raw/main/itgmania"
 
 # Get latest ITGMania release URL
 echo "Fetching latest ITGMania release..."

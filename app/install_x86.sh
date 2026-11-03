@@ -2,13 +2,13 @@
 set -euo pipefail
 
 # URL of the script to download
-SCRIPT_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app/symlinks.sh"  # URL for symlink_manager.sh
-BATOCERA_ADDONS_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app/BatoceraUnofficialAddOns.sh"  # URL for batocera-unofficial-addons.sh
-BATOCERA_ADDONS_LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app/extra/batocera-unofficial-addons.png"
-BATOCERA_ADDONS_WHEEL_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app/extra/batocera-unofficial-addons-wheel.png"
-KEYS_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app/keys.txt"  # URL for keys.txt
-XMLSTARLET_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/app/xmlstarlet"  # URL for xmlstarlet
-DIO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/app/.dialogrc"
+SCRIPT_URL="https://github.com/KevoBato/sbua/raw/main/app/symlinks.sh"  # URL for symlink_manager.sh
+BATOCERA_ADDONS_URL="https://github.com/KevoBato/sbua/raw/main/app/BatoceraUnofficialAddOns.sh"  # URL for batocera-unofficial-addons.sh
+BATOCERA_ADDONS_LOGO_URL="https://github.com/KevoBato/sbua/raw/main/app/extra/batocera-unofficial-addons.png"
+BATOCERA_ADDONS_WHEEL_URL="https://github.com/KevoBato/sbua/raw/main/app/extra/batocera-unofficial-addons-wheel.png"
+KEYS_URL="https://github.com/KevoBato/sbua/raw/main/app/keys.txt"  # URL for keys.txt
+XMLSTARLET_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/app/xmlstarlet"  # URL for xmlstarlet
+DIO_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/app/.dialogrc"
 
 # Destination path to download the script
 DOWNLOAD_DIR="/userdata/system/services/"
@@ -35,7 +35,7 @@ if [ ! -s "$SCRIPT_PATH" ]; then
 fi
 
 # Download base dependencies
-curl -fLs https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/refs/heads/main/app/dep.sh | bash
+curl -fLs https://raw.githubusercontent.com/KevoBato/sbua/refs/heads/main/app/dep.sh | bash
 
 # Step 2: Remove the .sh extension
 SCRIPT_WITHOUT_EXTENSION="${SCRIPT_PATH%.sh}"
@@ -53,7 +53,7 @@ echo "Starting batocera-unofficial-addons-symlinks service..."
 batocera-services start symlink_manager &>/dev/null &
 
 # Step 6: Download batocera-unofficial-addons.sh
-echo "Downloading Batocera Unofficial Add-Ons Launcher from $BATOCERA_ADDONS_URL..."
+echo "Downloading SUPER Unofficial Batocera Add-Ons Launcher from $BATOCERA_ADDONS_URL..."
 curl -fLs -o "$BATOCERA_ADDONS_PATH" "$BATOCERA_ADDONS_URL"
 
 # Check if the download was successful
@@ -113,7 +113,7 @@ mkdir -p "/userdata/roms/ports/images"
 APPNAME="BUA"
 DESKTOP_FILE="/usr/share/applications/${APPNAME}.desktop"
 PERSISTENT_DESKTOP="/userdata/system/configs/${APPNAME,,}/${APPNAME}.desktop"
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app/extra/icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/app/extra/icon.png"
 
 mkdir -p "/userdata/system/configs/${APPNAME,,}"
 mkdir -p "/userdata/system/add-ons/${APPNAME,,}/extra"
@@ -203,7 +203,7 @@ fi
 echo "Adding logo to Batocera Unofficial Add-ons entry in gamelist.xml..."
 xmlstarlet ed -s "/gameList" -t elem -n "game" -v "" \
   -s "/gameList/game[last()]" -t elem -n "path" -v "./bua.sh" \
-  -s "/gameList/game[last()]" -t elem -n "name" -v "Batocera Unofficial Add-Ons Installer" \
+  -s "/gameList/game[last()]" -t elem -n "name" -v "SUPER Unofficial Batocera Add-Ons" \
   -s "/gameList/game[last()]" -t elem -n "image" -v "./images/BatoceraUnofficialAddons.png" \
   -s "/gameList/game[last()]" -t elem -n "marquee" -v "./images/BatoceraUnofficialAddons_Wheel.png" \
   /userdata/roms/ports/gamelist.xml > /userdata/roms/ports/gamelist.xml.tmp && mv /userdata/roms/ports/gamelist.xml.tmp /userdata/roms/ports/gamelist.xml
@@ -212,4 +212,4 @@ xmlstarlet ed -s "/gameList" -t elem -n "game" -v "" \
 curl http://127.0.0.1:1234/reloadgames
 
 echo
-echo "Installation complete! You can now launch Batocera Unofficial Add-Ons from the Ports menu."
+echo "Installation complete! You can now launch SUPER Unofficial Batocera Add-Ons from the Ports menu."

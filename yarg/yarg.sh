@@ -9,7 +9,7 @@ LOGO_PATH="${PORTS_DIR}/images/yarg-logo.png"
 PORT_SCRIPT="${PORTS_DIR}/${APP_NAME}.sh"
 DESKTOP_FILE="/usr/share/applications/YARC-Launcher.desktop"
 PERSISTENT_DESKTOP="/userdata/system/configs/yarg/YARC-Launcher.desktop"
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/yarg/extra/icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/yarg/extra/icon.png"
 
 # Step 1: Detect architecture
 echo "Detecting system architecture..."

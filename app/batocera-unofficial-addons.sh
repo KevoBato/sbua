@@ -4,7 +4,7 @@ LAUNCH_PATH="/userdata/roms/ports/bua.sh"
 SYMLINK_MANAGER_PATH="/userdata/system/services/symlink_manager"
 
 install_bua() {
-  curl -L install.batoaddons.app | bash
+  curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh | bash
 }
 
 grep -q '^Exec=/userdata/roms/ports/BatoceraUnofficialAddOns.sh' /usr/share/applications/BUA.desktop && {
@@ -28,7 +28,7 @@ fi
 
 # Function to display animated title with colors
 animate_title() {
-  local text="BATOCERA UNOFFICIAL ADD-ONS INSTALLER"
+  local text="SUPER UNOFFICIAL BATOCERA ADD-ONS INSTALLER"
   local delay=0.01
   local length=${#text}
 
@@ -112,96 +112,96 @@ declare -A apps
 declare -A descriptions
 
 apps=(
-  ["7ZIP"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/7zip/7zip.sh | bash"
-  ["AMAZON-LUNA"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/amazonluna/amazonluna.sh | bash"
-  ["AMBERMOON"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/ambermoon/ambermoon.sh | bash"
+  ["7ZIP"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/7zip/7zip.sh | bash"
+  ["AMAZON-LUNA"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/amazonluna/amazonluna.sh | bash"
+  ["AMBERMOON"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/ambermoon/ambermoon.sh | bash"
   ["ANDROID"]="curl -Ls https://github.com/DRLEdition19/DRLEdition_Interface/raw/refs/heads/main/Android/Install_Android.sh | bash"
-  ["ARMAGETRON"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/armagetron/armagetron.sh | bash"
-  ["ARCADEMANAGER"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/arcademanager/arcademanager.sh | bash"
-  ["ASSAULTCUBE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/assaultcube/assaultcube.sh | bash"
-  ["BRAVE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/brave/brave.sh | bash"
-  ["CHIAKI"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/chiaki/chiaki.sh | bash"
-  ["CHROME"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/chrome/chrome.sh | bash"
-  ["CLONEHERO"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/clonehero/clonehero.sh | bash"
-  ["CONTY"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/conty/conty.sh | bash"
-  ["CSPORTABLE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/csportable/csportable.sh | bash"
-  ["DISNEYPLUS"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/disneyplus/disneyplus.sh | bash"
-  ["CLITOOLS"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/cli.sh | bash"
-  ["ENDLESS-SKY"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/endlesssky/endlesssky.sh | bash"
-  ["EVEREST"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/everest/everest.sh | bash"
-  ["FIREFOX"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/firefox/firefox.sh | bash"
-  ["FIGHTCADE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/fightcade/fightcade.sh | bash"
-  ["FLATHUB"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/flathub/flathub.sh | bash"
-  ["FREEJ2ME"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/Freej2me/Install_j2me.sh | bash"
+  ["ARMAGETRON"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/armagetron/armagetron.sh | bash"
+  ["ARCADEMANAGER"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/arcademanager/arcademanager.sh | bash"
+  ["ASSAULTCUBE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/assaultcube/assaultcube.sh | bash"
+  ["BRAVE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/brave/brave.sh | bash"
+  ["CHIAKI"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/chiaki/chiaki.sh | bash"
+  ["CHROME"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/chrome/chrome.sh | bash"
+  ["CLONEHERO"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/clonehero/clonehero.sh | bash"
+  ["CONTY"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/conty/conty.sh | bash"
+  ["CSPORTABLE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/csportable/csportable.sh | bash"
+  ["DISNEYPLUS"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/disneyplus/disneyplus.sh | bash"
+  ["CLITOOLS"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/cli.sh | bash"
+  ["ENDLESS-SKY"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/endlesssky/endlesssky.sh | bash"
+  ["EVEREST"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/everest/everest.sh | bash"
+  ["FIREFOX"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/firefox/firefox.sh | bash"
+  ["FIGHTCADE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/fightcade/fightcade.sh | bash"
+  ["FLATHUB"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/flathub/flathub.sh | bash"
+  ["FREEJ2ME"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/Freej2me/Install_j2me.sh | bash"
   ["WINCONFIG-WINDOWS-GAME-FIX"]="curl -L https://github.com/DRLEdition19/DRLEdition_Interface/raw/refs/heads/main/Install_Winconfig.sh | bash"
   ["DESKTOP_FOR_BATOCERA"]="curl -L https://github.com/DRLEdition19/DRLEdition_Interface/raw/refs/heads/main/Install_Desktop.sh | bash"
-  ["FREEDROIDRPG"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/freedomrpg/freedomrpg.sh | bash"
-  ["GREENLIGHT"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/greenlight/greenlight.sh | bash"
-  ["HEROIC"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/heroic/heroic.sh | bash"
-  ["IPTVNATOR"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/iptvnator/iptvnator.sh | bash"
-  ["INPUTLEAP"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/inputleap/inputleap.sh | bash"
-  ["ITCHIO"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/itchio/itch.sh | bash"
-  ["JDOWNLOADER"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/jdownloader/jdownloader.sh | bash"
-  ["JAVA-RUNTIME"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/java/java.sh | bash"
-  ["MINECRAFT"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/minecraft/minecraft.sh | bash"
-  ["MOONLIGHT"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/moonlight/moonlight.sh | bash"
-  ["NETFLIX"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/netflix/netflix.sh | bash"
-  ["NVIDIAPATCHER"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/nvidiapatch/nvidiapatch.sh | bash"
-  ["OBS"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/obs/obs.sh | bash"
-  ["OPENRA"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/openra/openra.sh | bash"
-  ["OPENRGB"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/openrgb/openrgb.sh | bash"
-  ["PORTMASTER"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/portmaster/portmaster.sh | bash"
-  ["QBITTORRENT"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/qbittorrent/qbittorrent.sh | bash"
-  ["SHADPS4"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/shadps4plus/shadps4plus.sh | bash"
-  ["SPOTIFY"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/spotify/spotify.sh | bash"
-  ["STEPMANIA"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/stepmania/stepmania.sh | bash"
-  ["STREMIO"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/stremio/stremio.sh | bash"
-  ["SUNSHINE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/sunshine/sunshine.sh | bash"
-  ["SUPERTUX"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supertux/supertux.sh | bash"
-  ["SUPERTUXKART"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supertuxkart/supertuxkart.sh | bash"
-  ["SWITCH"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/switch/switch.sh | bash"
-  ["TAILSCALE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/tailscale/tailscale.sh | bash"
-  ["TELEGRAF"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/telegraf/telegraf.sh | bash"
-  ["TWITCH"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/twitch/twitch.sh | bash"
-  ["VESKTOP"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vesktop/vesktop.sh | bash"
-  ["WARZONE2100"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/warzone2100/warzone2100.sh | bash"
-  ["WINE-DEPENDENCIES-x86"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/winemanager/install_redist_dependencies32.sh | bash"
-  ["WINE-DEPENDENCIES-x64"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/winemanager/install_redist_dependencies64.sh | bash"
+  ["FREEDROIDRPG"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/freedomrpg/freedomrpg.sh | bash"
+  ["GREENLIGHT"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/greenlight/greenlight.sh | bash"
+  ["HEROIC"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/heroic/heroic.sh | bash"
+  ["IPTVNATOR"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/iptvnator/iptvnator.sh | bash"
+  ["INPUTLEAP"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/inputleap/inputleap.sh | bash"
+  ["ITCHIO"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/itchio/itch.sh | bash"
+  ["JDOWNLOADER"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/jdownloader/jdownloader.sh | bash"
+  ["JAVA-RUNTIME"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/java/java.sh | bash"
+  ["MINECRAFT"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/minecraft/minecraft.sh | bash"
+  ["MOONLIGHT"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/moonlight/moonlight.sh | bash"
+  ["NETFLIX"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/netflix/netflix.sh | bash"
+  ["NVIDIAPATCHER"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/nvidiapatch/nvidiapatch.sh | bash"
+  ["OBS"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/obs/obs.sh | bash"
+  ["OPENRA"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/openra/openra.sh | bash"
+  ["OPENRGB"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/openrgb/openrgb.sh | bash"
+  ["PORTMASTER"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/portmaster/portmaster.sh | bash"
+  ["QBITTORRENT"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/qbittorrent/qbittorrent.sh | bash"
+  ["SHADPS4"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/shadps4plus/shadps4plus.sh | bash"
+  ["SPOTIFY"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/spotify/spotify.sh | bash"
+  ["STEPMANIA"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/stepmania/stepmania.sh | bash"
+  ["STREMIO"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/stremio/stremio.sh | bash"
+  ["SUNSHINE"]="curl -Ls https://github.com/KevoBato/sbua/raw/main/sunshine/sunshine.sh | bash"
+  ["SUPERTUX"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/supertux/supertux.sh | bash"
+  ["SUPERTUXKART"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/supertuxkart/supertuxkart.sh | bash"
+  ["SWITCH"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/switch/switch.sh | bash"
+  ["TAILSCALE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/tailscale/tailscale.sh | bash"
+  ["TELEGRAF"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/telegraf/telegraf.sh | bash"
+  ["TWITCH"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/twitch/twitch.sh | bash"
+  ["VESKTOP"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/vesktop/vesktop.sh | bash"
+  ["WARZONE2100"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/warzone2100/warzone2100.sh | bash"
+  ["WINE-DEPENDENCIES-x86"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/winemanager/install_redist_dependencies32.sh | bash"
+  ["WINE-DEPENDENCIES-x64"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/winemanager/install_redist_dependencies64.sh | bash"
   ["WINE-MANAGER"]="curl -Ls https://raw.githubusercontent.com/Gr3gorywolf/batocera_wine_manager/main/scripts/install.sh | bash"
-  ["XONOTIC"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/xonotic/xonotic.sh | bash"
-  ["YOUTUBE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/youtubetv/youtubetv.sh | bash"
+  ["XONOTIC"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/xonotic/xonotic.sh | bash"
+  ["YOUTUBE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/youtubetv/youtubetv.sh | bash"
   ["NVIDIACLOCKER"]="curl -Ls https://raw.githubusercontent.com/nicolai-6/batocera-nvidia-clocker/refs/heads/main/install.sh | bash"
-  #["CUSTOMWINE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wine-custom/wine.sh | bash"
-  ["GPARTED"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/gparted/gparted.sh | bash"
-  ["YARG"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/yarg/yarg.sh | bash"
-  ["PLEX"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/plex/plex.sh | bash"
-  ["OPENTTD"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/openttd/openttd.sh | bash"
-  ["LUANTI"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/luanti/luanti.sh | bash"
-  ["PARSEC"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/parsec/parsec.sh | bash"
-  ["HBOMAX"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/hbomax/hbomax.sh | bash"
-  ["PRIMEVIDEO"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/prime/prime.sh | bash"
-  ["CRUNCHYROLL"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/crunchyroll/crunchyroll.sh | bash"
-  ["MUBI"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/mubi/mubi.sh | bash"
-  ["TIDAL"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/tidal/tidal.sh | bash"
-  ["FREETUBE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/freetube/freetube.sh | bash"
-  ["SUPERMARIOX"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supermariox/supermariox.sh | bash"
-  ["CELESTE64"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/celeste64/celeste64.sh | bash"
-  ["STEAM"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/steam/steam.sh | bash"
-  ["LUTRIS"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/lutris/lutris.sh | bash"
-  ["FILEZILLA"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/filezilla/filezilla.sh | bash"
-  ["PEAZIP"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/peazip/peazip.sh | bash"
-  ["VLC"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vlc/vlc.sh | bash"
-  ["DOCKER"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/docker.sh | bash"
-  ["BOTTLES"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/bottles/bottles.sh | bash"
-  ["EXTRAS"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/extra/extra.sh | bash"
-  ["ULTRASTAR"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/usdeluxe/usdeluxe.sh | bash"
-  ["F1"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/f1/f1.sh | bash"
-  ["DESKTOP"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/desktop/desktop.sh | bash"
-  ["X11VNC"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/x11vnc/x11vnc.sh | bash"
-  ["QEMU-GA"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/qga/qga.sh | bash"
-  ["BRIDGE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/bridge/bridge.sh | bash"
-  ["SOAR"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/soar/soar.sh | bash"
-  ["DARK-MODE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/dark/dark.sh | bash"
+  #["CUSTOMWINE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/wine-custom/wine.sh | bash"
+  ["GPARTED"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/gparted/gparted.sh | bash"
+  ["YARG"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/yarg/yarg.sh | bash"
+  ["PLEX"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/plex/plex.sh | bash"
+  ["OPENTTD"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/openttd/openttd.sh | bash"
+  ["LUANTI"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/luanti/luanti.sh | bash"
+  ["PARSEC"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/parsec/parsec.sh | bash"
+  ["HBOMAX"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/hbomax/hbomax.sh | bash"
+  ["PRIMEVIDEO"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/prime/prime.sh | bash"
+  ["CRUNCHYROLL"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/crunchyroll/crunchyroll.sh | bash"
+  ["MUBI"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/mubi/mubi.sh | bash"
+  ["TIDAL"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/tidal/tidal.sh | bash"
+  ["FREETUBE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/freetube/freetube.sh | bash"
+  ["SUPERMARIOX"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/supermariox/supermariox.sh | bash"
+  ["CELESTE64"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/celeste64/celeste64.sh | bash"
+  ["STEAM"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/steam/steam.sh | bash"
+  ["LUTRIS"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/lutris/lutris.sh | bash"
+  ["FILEZILLA"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/filezilla/filezilla.sh | bash"
+  ["PEAZIP"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/peazip/peazip.sh | bash"
+  ["VLC"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/vlc/vlc.sh | bash"
+  ["DOCKER"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/docker.sh | bash"
+  ["BOTTLES"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/bottles/bottles.sh | bash"
+  ["EXTRAS"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/extra/extra.sh | bash"
+  ["ULTRASTAR"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/usdeluxe/usdeluxe.sh | bash"
+  ["F1"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/f1/f1.sh | bash"
+  ["DESKTOP"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/desktop/desktop.sh | bash"
+  ["X11VNC"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/x11vnc/x11vnc.sh | bash"
+  ["QEMU-GA"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/qga/qga.sh | bash"
+  ["BRIDGE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/bridge/bridge.sh | bash"
+  ["SOAR"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/soar/soar.sh | bash"
+  ["DARK-MODE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/dark/dark.sh | bash"
   ["NPSGET"]="curl -fsSL https://npsget.8101987.xyz | sh"
   ["PS3I"]="curl -fsSL https://ps3i.8101987.xyz/install.sh | sh"
   #["RGSX"]="curl -L bit.ly/rgsx-install | sh"
@@ -326,7 +326,7 @@ while true; do
 
   # Exit if the user selects "Exit" or cancels
   if [[ $? -ne 0 || "$category_choice" == "Exit" ]]; then
-    dialog --title "Exiting Installer" --infobox "Thank you for using the Batocera Unofficial Add-Ons Installer. For support; https://discord.batoaddons.app or https://wiki.batoaddons.app. Goodbye!" 7 50
+    dialog --title "Exiting Installer" --infobox "Thank you for using the SUPER Unofficial Batocera Add-Ons Installer. For support; https://discord.batoaddons.app or https://wiki.batoaddons.app. Goodbye!" 7 50
     sleep 5
     clear
     exit 0
@@ -339,7 +339,7 @@ while true; do
       selected_apps=$(echo "${categories["Games"]}" | tr ' ' '\n' | sort | tr '\n' ' ')
       ;;
     "Windows Freeware")
-      (curl -Ls github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/windows/menu.sh | bash)
+      (curl -Ls github.com/KevoBato/sbua/raw/main/windows/menu.sh | bash)
       break
       ;;
     "Game Utilities")
@@ -352,11 +352,11 @@ while true; do
       selected_apps=$(echo "${categories["Developer Tools"]}" | tr ' ' '\n' | sort | tr '\n' ' ')
       ;;
     "Docker Menu")
-      (curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/docker/menu.sh | bash)
+      (curl -Ls https://github.com/KevoBato/sbua/raw/main/docker/menu.sh | bash)
       break
       ;;
     "Updater")
-      (curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/app/updater.sh | bash)
+      (curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/app/updater.sh | bash)
       break
       ;;
     *)

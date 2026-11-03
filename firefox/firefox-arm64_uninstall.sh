@@ -1,7 +1,7 @@
 #!/bin/bash
 # Firefox uninstaller for Batocera (ARM64). Removes Firefox and its profile, the Ports
 # launcher and its gamelist entry, the desktop entry and the custom.sh line that restores it.
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/firefox/firefox-arm64_uninstall.sh | bash
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/firefox/firefox-arm64_uninstall.sh | bash
 
 # Same names and values as firefox-arm64.sh
 APPNAME="Firefox"

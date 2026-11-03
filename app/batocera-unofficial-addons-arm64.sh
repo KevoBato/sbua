@@ -3,7 +3,7 @@
 LAUNCH_PATH="/userdata/roms/ports/bua.sh"
 
 install_bua() {
-    curl -L install.batoaddons.app | bash
+    curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh | bash
 }
 
 if grep -q 'DIALOGRC' "$LAUNCH_PATH"; then
@@ -16,7 +16,7 @@ fi
 
 # Function to display animated title with colors
 animate_title() {
-    local text="BATOCERA UNOFFICIAL ADD-ONS INSTALLER"
+    local text="SUPER UNOFFICIAL BATOCERA ADD-ONS INSTALLER"
     local delay=0.01
     local length=${#text}
 
@@ -101,28 +101,28 @@ declare -A apps
 declare -A descriptions
 
 apps=(
-    ["CHIAKI"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/chiaki/chiaki.sh | bash"
-    ["CONTY"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/conty/conty.sh | bash"
-    ["DOCKER"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/docker.sh | bash"
-    ["IPTVNATOR"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/iptvnator/iptvnator.sh | bash"
-    ["PORTMASTER"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/portmaster/portmaster.sh | bash"
-    ["TAILSCALE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/tailscale/tailscale.sh | bash"
-    ["TELEGRAF"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/telegraf/telegraf.sh | bash"
-    ["VESKTOP"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vesktop/vesktop.sh | bash"
-    ["MINECRAFT"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/minecraft/bedrock.sh | bash"
-    ["FREETUBE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/freetube/freetube.sh | bash"
-    ["SUPERMARIOX"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supermariox/supermariox.sh | bash"
-    ["SUPERTUXKART"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/supertuxkart/supertuxkart.sh | bash"
-    ["CELESTE64"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/celeste64/celeste64.sh | bash"
-    ["F1"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/f1/f1.sh | bash"
-    ["FIREFOX"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/firefox/firefox-arm64.sh | bash"
-    ["DESKTOP"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/desktop/desktop.sh | bash"
-    ["GREENLIGHT"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/greenlight/greenlight_arm64.sh | bash"
-    ["AMAZON-LUNA"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/amazonluna/amazonluna-arm64.sh | bash"
-    ["SOAR"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/soar/soar.sh | bash"
-    ["WAYVNC"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wayvnc/wayvnc.sh | bash"
-    ["WAYVNC-HEADLESS"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wayvnc_headless/wayvnc_headless.sh | bash"
-    ["DARK-MODE"]="curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/dark/dark.sh | bash"
+    ["CHIAKI"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/chiaki/chiaki.sh | bash"
+    ["CONTY"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/conty/conty.sh | bash"
+    ["DOCKER"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/docker.sh | bash"
+    ["IPTVNATOR"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/iptvnator/iptvnator.sh | bash"
+    ["PORTMASTER"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/portmaster/portmaster.sh | bash"
+    ["TAILSCALE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/tailscale/tailscale.sh | bash"
+    ["TELEGRAF"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/telegraf/telegraf.sh | bash"
+    ["VESKTOP"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/vesktop/vesktop.sh | bash"
+    ["MINECRAFT"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/minecraft/bedrock.sh | bash"
+    ["FREETUBE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/freetube/freetube.sh | bash"
+    ["SUPERMARIOX"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/supermariox/supermariox.sh | bash"
+    ["SUPERTUXKART"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/supertuxkart/supertuxkart.sh | bash"
+    ["CELESTE64"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/celeste64/celeste64.sh | bash"
+    ["F1"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/f1/f1.sh | bash"
+    ["FIREFOX"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/firefox/firefox-arm64.sh | bash"
+    ["DESKTOP"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/desktop/desktop.sh | bash"
+    ["GREENLIGHT"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/greenlight/greenlight_arm64.sh | bash"
+    ["AMAZON-LUNA"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/amazonluna/amazonluna-arm64.sh | bash"
+    ["SOAR"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/soar/soar.sh | bash"
+    ["WAYVNC"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/wayvnc/wayvnc.sh | bash"
+    ["WAYVNC-HEADLESS"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/wayvnc_headless/wayvnc_headless.sh | bash"
+    ["DARK-MODE"]="curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/dark/dark.sh | bash"
 )
 
 
@@ -173,7 +173,7 @@ while true; do
 
 # Exit if the user selects "Exit" or cancels
 if [[ $? -ne 0 || "$category_choice" == "Exit" ]]; then
-    dialog --title "Exiting Installer" --infobox "Thank you for using the Batocera Unofficial Add-Ons Installer. For support; https://discord.batoaddons.app or https://wiki.batoaddons.app. Goodbye!" 7 50
+    dialog --title "Exiting Installer" --infobox "Thank you for using the SUPER Unofficial Batocera Add-Ons Installer. For support; https://discord.batoaddons.app or https://wiki.batoaddons.app. Goodbye!" 7 50
     sleep 5  # Pause for 3 seconds to let the user read the message
     clear
     exit 0
@@ -195,11 +195,11 @@ fi
                 selected_apps=$(echo "${categories["Developer Tools"]}" | tr ' ' '\n' | sort | tr '\n' ' ')
                 ;;
             "Docker Menu")
-               ( curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/docker/menu.sh | bash )
+               ( curl -Ls https://github.com/KevoBato/sbua/raw/main/docker/menu.sh | bash )
                 break
                 ;;
             "Updater")
-                ( curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/app/updater.sh | bash )
+                ( curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/app/updater.sh | bash )
                 break
                 ;;
             *)

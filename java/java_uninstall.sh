@@ -1,7 +1,7 @@
 #!/bin/bash
 # Java Runtime uninstaller for Batocera. Removes the Java add-on, its desktop
 # entry, the PATH/JAVA_HOME line in .profile and .bashrc and its custom.sh line.
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/java/java_uninstall.sh | bash
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/java/java_uninstall.sh | bash
 
 # Same names and values as java.sh
 APPNAME=java

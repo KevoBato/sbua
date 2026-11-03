@@ -64,11 +64,11 @@ mkdir -p /userdata/system/configs/steam
 mkdir -p /userdata/system/add-ons/steam/extra
 DESKTOP_FILE="/usr/share/applications/Steam.desktop"
 PERSISTENT_DESKTOP="/userdata/system/configs/steam/Steam.desktop"
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/steam/extra/icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/steam/extra/icon.png"
 INSTALL_DIR="/userdata/system/add-ons/steam"
 
 echo "Downloading Steam helper scripts..."
-SCRIPTS_BASE_URL="https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/steam/extra"
+SCRIPTS_BASE_URL="https://raw.githubusercontent.com/KevoBato/sbua/main/steam/extra"
 wget --show-progress -qO "/userdata/system/add-ons/steam/Launcher" "${SCRIPTS_BASE_URL}/Launcher2"
 wget --show-progress -qO "/userdata/system/add-ons/steam/create-steam-launchers.sh" "${SCRIPTS_BASE_URL}/create-steam-launchers2.sh"
 wget --show-progress -qO "/userdata/system/add-ons/steam/lbfix.sh" "${SCRIPTS_BASE_URL}/lbfix.sh"
@@ -165,7 +165,7 @@ cat <<'EOF' > /userdata/roms/steam/Steam_Big_Picture.sh
 EOF
 chmod +x /userdata/roms/steam/Steam_Big_Picture.sh
 
-KEYS_URL="https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/refs/heads/main/steam/extra/Steam.sh.keys"
+KEYS_URL="https://raw.githubusercontent.com/KevoBato/sbua/refs/heads/main/steam/extra/Steam.sh.keys"
 # Step 5: Download the key mapping file
 echo "Downloading key mapping file..."
 curl -L -o "/userdata/roms/steam/Steam_Big_Picture.sh.keys" "$KEYS_URL"

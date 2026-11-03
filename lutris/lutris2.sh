@@ -116,11 +116,11 @@ mkdir -p /userdata/system/configs/lutris
 mkdir -p /userdata/system/add-ons/lutris/extra
 DESKTOP_FILE="/usr/share/applications/Lutris.desktop"
 PERSISTENT_DESKTOP="/userdata/system/configs/lutris/Lutris.desktop"
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/lutris/extra/icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/lutris/extra/icon.png"
 INSTALL_DIR="/userdata/system/add-ons/lutris"
 
 echo "Downloading Lutris helper scripts..."
-SCRIPTS_BASE_URL="https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/lutris/extra"
+SCRIPTS_BASE_URL="https://raw.githubusercontent.com/KevoBato/sbua/main/lutris/extra"
 wget --show-progress -qO "/userdata/system/add-ons/lutris/Launcher" "${SCRIPTS_BASE_URL}/Launcher"
 wget --show-progress -qO "/userdata/system/add-ons/lutris/create-lutris-launchers.sh" "${SCRIPTS_BASE_URL}/create-lutris-launchers.sh"
 
@@ -201,7 +201,7 @@ chmod +x "/userdata/roms/lutris/LutrisView.sh"
 
 echo "Downloading Lutris logo..."
 curl -L -o /userdata/roms/lutris/images/lutrislogo.jpg \
-    https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/lutris/extra/logo.jpg
+    https://github.com/KevoBato/sbua/raw/main/lutris/extra/logo.jpg
 
 echo "Adding LutrisView to gamelist.xml..."
 if [[ ! -f /userdata/roms/lutris/gamelist.xml ]]; then

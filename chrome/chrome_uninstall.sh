@@ -8,7 +8,7 @@
 # /userdata/system is removed too.
 # Asks first when installed web apps still run on Chrome; to remove it
 # without asking (in the BUA app: LB+RB on the installed apps screen):
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/chrome/chrome_uninstall.sh | bash -s -- --ignore-warning
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/chrome/chrome_uninstall.sh | bash -s -- --ignore-warning
 
 APPNAME="Chrome"
 APPDIR="/userdata/system/add-ons/google-chrome"

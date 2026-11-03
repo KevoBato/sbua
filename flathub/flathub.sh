@@ -4,12 +4,12 @@
 APPNAME="flathub"
 APPDIR="/userdata/system/add-ons/google-chrome"
 APPPATH="$APPDIR/GoogleChrome.AppImage"
-CHROME_INSTALLER_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/chrome/chrome.sh"
+CHROME_INSTALLER_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/chrome/chrome.sh"
 PORT_SCRIPT="/userdata/roms/ports/flathub.sh"
 ICON_PATH="/userdata/roms/ports/images/flathub-logo.jpg"
 KEYS_PATH="/userdata/roms/ports/flathub.sh.keys"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/flathub/extra/flathub-logo.jpg"
-KEYS_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/flathub/extra/flathub.sh.keys"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/flathub/extra/flathub-logo.jpg"
+KEYS_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/flathub/extra/flathub.sh.keys"
 GAMELIST="/userdata/roms/ports/gamelist.xml"
 
 # Step 1: Show dialog to confirm

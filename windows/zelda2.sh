@@ -7,7 +7,7 @@ DEST_DIR="/userdata/roms/windows"
 MESSAGE="Zelda 2 PC Remake - Needs Enable DXVK in Adv settings for game and change video mode resolution to 1280x720x60 for best results"  # Leave empty if no message is needed
 GAME_LIST="/userdata/roms/windows/gamelist.xml"
 APP_NAME="Zelda 2 PC Remake"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/windows/extra/zelda2logo.jpg"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/windows/extra/zelda2logo.jpg"
 LOGO_PATH="/userdata/roms/windows/images/zelda2-logo.jpg"
 
 # Ensure destination directory exists

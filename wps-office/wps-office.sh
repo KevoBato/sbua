@@ -10,7 +10,7 @@ APP_CONFIG_DIR="$CONFIGS_DIR/$APP_NAME"
 APPIMAGE="$APP_DIR/WPS-Office.AppImage"
 DESKTOP_FILE="$DESKTOP_DIR/WPS-Office.desktop"
 PERSISTENT_DESKTOP="$APP_CONFIG_DIR/WPS-Office.desktop"
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/wps-office/extra/icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/wps-office/extra/icon.png"
 ICON_PATH="$APP_DIR/extra/icon.png"
 
 echo "Creating directories..."

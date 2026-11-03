@@ -1,7 +1,7 @@
 #!/bin/bash
 # VLC uninstaller for Batocera. Removes the AppImage, the Ports launcher and
 # its gamelist entry, the desktop entry and the custom.sh line that restores it.
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/vlc/vlc_uninstall.sh | bash
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/vlc/vlc_uninstall.sh | bash
 
 # Same names and values as vlc.sh
 APP_NAME="VLC"

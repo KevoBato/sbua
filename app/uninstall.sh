@@ -1,6 +1,6 @@
 #!/bin/bash
 # Uninstaller for BUA itself, installed by install_x86_new.sh or
-# install_arm64_new.sh (through install.batoaddons.app) and the BUA app.
+# install_arm64_new.sh (through https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh) and the BUA app.
 # Removes the symlink manager service and its links, the shared .dep files,
 # the bua command, the Ports launcher with its images and gamelist entry,
 # the desktop entry, BUA's custom.sh lines, the Python hook, the

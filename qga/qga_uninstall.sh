@@ -1,7 +1,7 @@
 #!/bin/bash
 # QEMU Guest Agent uninstaller for Batocera. Stops and removes the qemu_ga
 # service, the add-on files and the symlinks BUA made for them in /usr.
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/qga/qga_uninstall.sh | bash
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/qga/qga_uninstall.sh | bash
 
 main() {
     echo "========================================="

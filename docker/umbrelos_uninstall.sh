@@ -4,7 +4,7 @@
 # containers, every app installed through Umbrel, and the Umbrel data dir.
 # Asks first when Umbrel has apps installed; to remove them without asking
 # (in the BUA app: LB+RB on the installed apps screen):
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/umbrelos_uninstall.sh | bash -s -- --ignore-warning
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/umbrelos_uninstall.sh | bash -s -- --ignore-warning
 
 APPNAME="Umbrel"
 data_dir="/userdata/system/add-ons/${APPNAME,,}"

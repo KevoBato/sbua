@@ -3,11 +3,11 @@
 # Variables
 APPNAME="Sandtrix"
 APPDIR="/userdata/system/add-ons/sandtrix"
-ZIP_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/sandtrix/extra/Sandtrix_3.0_LINUX.tar.gz"
+ZIP_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/sandtrix/extra/Sandtrix_3.0_LINUX.tar.gz"
 ZIP_PATH="$APPDIR/Sandtrix_3.0_LINUX.tar.gz"
 PORT_SCRIPT="/userdata/roms/ports/Sandtrix.sh"
 ICON_PATH="/userdata/roms/ports/images/sandtrix-logo.png"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/sandtrix/extra/sandtrix-logo.png"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/sandtrix/extra/sandtrix-logo.png"
 GAMELIST="/userdata/roms/ports/gamelist.xml"
 
 # Step 2: Check if Sandtrix is installed

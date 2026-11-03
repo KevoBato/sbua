@@ -5,8 +5,8 @@ echo "Preparing dark mode install..."
 # Define paths
 DEST_DIR="/userdata/system/add-ons/darkmode"
 SERVICE_DIR="/userdata/system/services"
-ZIP_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/dark/extra/Adwaita-dark.zip"
-SERVICE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/dark/extra/dark_mode"
+ZIP_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/dark/extra/Adwaita-dark.zip"
+SERVICE_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/dark/extra/dark_mode"
 ZIP_FILE="${DEST_DIR}/Adwaita-dark.zip"
 SERVICE_FILE="${SERVICE_DIR}/dark_mode"
 

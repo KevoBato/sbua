@@ -9,7 +9,7 @@ ARM_SUFFIX="linux-arm64.AppImage"
 # Quiver's official icon, linked from its repo at a fixed commit (its trademark
 # terms don't allow copying it into this repo; the file moved once already)
 LOGO_URL="https://raw.githubusercontent.com/tgeorgiadis/quiver-launcher/93b2dcbdd0a5cc8a8fb30171b4484a7f733e635c/apps/launcher/src-tauri/icons/icon.png"
-SCRIPTS_BASE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/quiverlauncher/extra"
+SCRIPTS_BASE_URL="https://github.com/KevoBato/sbua/raw/main/quiverlauncher/extra"
 
 # -----------------------------------------------------------------------------------------------------------------
 

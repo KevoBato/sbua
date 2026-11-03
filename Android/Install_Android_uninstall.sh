@@ -8,7 +8,7 @@
 # another installed add-on still uses it, it asks before removing it. To
 # answer yes without asking (in the BUA app: LB+RB on the installed apps
 # screen):
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/Android/Install_Android_uninstall.sh | bash -s -- --ignore-warning
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/Android/Install_Android_uninstall.sh | bash -s -- --ignore-warning
 
 TEMP_DIR="/userdata/tmp/Android"
 ADDON_DIR="/userdata/system/add-ons/android-bua"

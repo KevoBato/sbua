@@ -3,7 +3,7 @@
 # Step 0: Install main addon dependencies
 SYMLINK_MANAGER_PATH="/userdata/system/services/symlink_manager"
 if [ ! -e "$SYMLINK_MANAGER_PATH" ]; then
-    curl -Ls install.batoaddons.app | bash
+    curl -Ls https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh | bash
 fi
 
 # Step 1: Detect system architecture
@@ -59,7 +59,7 @@ if ! command -v docker >/dev/null 2>&1; then
         -v portainer_data:/data \
         portainer/portainer-ce:latest
 
-    curl -Ls https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/docker -o /userdata/system/services/docker && chmod +x /userdata/system/services/docker
+    curl -Ls https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/docker -o /userdata/system/services/docker && chmod +x /userdata/system/services/docker
     batocera-services enable docker
     batocera-services start docker
 else
@@ -196,8 +196,8 @@ curl -s http://127.0.0.1:1234/reloadgames
 
 echo "Adding image and marquee..."
 mkdir -p /userdata/roms/ports/images
-curl -Ls -o /userdata/roms/ports/images/desktop-logo.png https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/desktop/extra/desktop-logo.png
-curl -Ls -o /userdata/roms/ports/images/desktop-marquee.png https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/desktop/extra/desktop-marquee.png
+curl -Ls -o /userdata/roms/ports/images/desktop-logo.png https://github.com/KevoBato/sbua/raw/main/desktop/extra/desktop-logo.png
+curl -Ls -o /userdata/roms/ports/images/desktop-marquee.png https://github.com/KevoBato/sbua/raw/main/desktop/extra/desktop-marquee.png
 
 gamelist_file="/userdata/roms/ports/gamelist.xml"
 if [ ! -f "$gamelist_file" ]; then

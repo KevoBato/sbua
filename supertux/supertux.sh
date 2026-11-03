@@ -5,7 +5,7 @@ APP_NAME="SuperTux"
 REPO="SuperTux/supertux"
 AMD_SUFFIX="x86_64.AppImage"
 ARM_SUFFIX=""
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/supertux/extra/supertux-logo.png"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/supertux/extra/supertux-logo.png"
 
 # -----------------------------------------------------------------------------------------------------------------
 

@@ -8,7 +8,7 @@ DEST_DIR="/userdata/roms/windows"
 MESSAGE=""  # Leave empty if no message is needed
 GAME_LIST="/userdata/roms/windows/gamelist.xml"
 APP_NAME="Crash Bandicoot - Back In Time"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/windows/extra/crash.jpg"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/windows/extra/crash.jpg"
 LOGO_PATH="/userdata/roms/windows/images/crash-logo.jpg"
 
 # Ensure destination directory exists

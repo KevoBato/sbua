@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 TARGET="/userdata/system/add-ons/steam/.local/share/Steam/ubuntu12_32/steam-runtime/pinned_libs_64/libcurl.so.4"
-URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/steam/extra/libcurl.so.4"
+URL="https://github.com/KevoBato/sbua/raw/main/steam/extra/libcurl.so.4"
 
 echo "[WAIT] Waiting for $TARGET to exist..."
 

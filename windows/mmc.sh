@@ -7,7 +7,7 @@ DEST_DIR="/userdata/roms/windows"
 MESSAGE=""  # Leave empty if no message is needed
 GAME_LIST="/userdata/roms/windows/gamelist.xml"
 APP_NAME="Modern Modern Chef"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/windows/extra/mmc.png"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/windows/extra/mmc.png"
 LOGO_PATH="/userdata/roms/windows/images/mmc-logo.png"
 
 # Ensure destination directory exists

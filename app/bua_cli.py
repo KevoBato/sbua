@@ -22,8 +22,8 @@ import sys
 import tempfile
 from datetime import datetime
 
-REPO_URL = "https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main"
-INSTALL_CMD = "curl -L install.batoaddons.app | bash"
+REPO_URL = "https://raw.githubusercontent.com/KevoBato/sbua/main"
+INSTALL_CMD = "curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/app/install_new.sh | bash"
 BUA_UNINSTALL_URL = f"{REPO_URL}/app/uninstall.sh"
 
 ADDONS_DIR = "/userdata/system/add-ons"

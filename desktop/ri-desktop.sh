@@ -295,9 +295,9 @@ PAD2KEY_EOF
 echo "[*] Downloading images..."
 mkdir -p "${PORTS_DIR}/images"
 curl -L -o "${PORTS_DIR}/images/desktop-logo.png" \
-  "https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/desktop/extra/desktop-logo.png" 2>/dev/null || true
+  "https://github.com/KevoBato/sbua/raw/main/desktop/extra/desktop-logo.png" 2>/dev/null || true
 curl -L -o "${PORTS_DIR}/images/desktop-marquee.png" \
-  "https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/desktop/extra/desktop-marquee.png" 2>/dev/null || true
+  "https://github.com/KevoBato/sbua/raw/main/desktop/extra/desktop-marquee.png" 2>/dev/null || true
 
 # Add entry to gamelist.xml with xmlstarlet
 echo "[*] Adding entry to gamelist.xml..."

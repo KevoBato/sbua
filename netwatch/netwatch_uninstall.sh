@@ -1,7 +1,7 @@
 #!/bin/bash
 # netwatch uninstaller for Batocera. Removes netwatch, its service, its
 # settings and its logs, including logs moved elsewhere in netwatch.conf.
-#   curl -L https://raw.githubusercontent.com/batocera-unofficial-addons/batocera-unofficial-addons/main/netwatch/netwatch_uninstall.sh | bash
+#   curl -L https://raw.githubusercontent.com/KevoBato/sbua/main/netwatch/netwatch_uninstall.sh | bash
 
 INSTALL_DIR="/userdata/system/add-ons/netwatch"
 SERVICE="/userdata/system/services/netwatch"

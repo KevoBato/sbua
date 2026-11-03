@@ -170,7 +170,7 @@ if [[ "$patch_status" = "ok" ]] && [[ "$fbcpatch_status" = "ok" ]]; then
 	echo
 	# Install and enable the nvidiapatch service so symlinks are re-applied on each boot
 	service_file="/userdata/system/services/nvidiapatch"
-	service_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/nvidiapatch/nvidiapatch-service.sh"
+	service_url="https://github.com/KevoBato/sbua/raw/main/nvidiapatch/nvidiapatch-service.sh"
 	curl -LsS "$service_url" -o "$service_file" 2>/dev/null || true
 	if [ -s "$service_file" ]; then
 		chmod 755 "$service_file"

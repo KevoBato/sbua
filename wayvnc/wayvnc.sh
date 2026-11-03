@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # === CONFIG ===
-REPO_BASE="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/wayvnc/extra"
+REPO_BASE="https://github.com/KevoBato/sbua/raw/refs/heads/main/wayvnc/extra"
 SERVICE_URL="$REPO_BASE/wayvnc"
 ADDONS_DIR="/userdata/system/add-ons"
 SERVICES_DIR="/userdata/system/services"
@@ -16,7 +16,7 @@ X11_SOCK=$(ls /tmp/.X11-unix/X* 2>/dev/null | head -n1)
 if [ -z "$WAYLAND_SOCK" ]; then
     if [ -n "$X11_SOCK" ]; then
         if dialog --yesno "This system is using X11, not Wayland.\n\nWayVNC requires Wayland. Would you like to install x11vnc instead?" 9 55; then
-            curl -s "https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/x11vnc/x11vnc.sh" | bash
+            curl -s "https://github.com/KevoBato/sbua/raw/refs/heads/main/x11vnc/x11vnc.sh" | bash
         fi
     else
         dialog --msgbox "ERROR: No display server detected.\n\nMake sure Wayland is running before installing WayVNC." 8 55

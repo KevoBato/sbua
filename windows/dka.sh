@@ -9,7 +9,7 @@ DEST_DIR="/userdata/roms/windows"
 MESSAGE=""  
 GAME_LIST="/userdata/roms/windows/gamelist.xml"
 APP_NAME="Donkey Kong Advanced"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/windows/extra/dka.png"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/windows/extra/dka.png"
 LOGO_PATH="/userdata/roms/windows/images/dka-logo.png"
 
 # Ensure destination directory exists

@@ -8,7 +8,7 @@ LATEST=$(curl -s https://api.github.com/repos/supertuxkart/stk-code/releases/lat
 ARCH_X86_64="https://github.com/supertuxkart/stk-code/releases/download/${LATEST}/SuperTuxKart-${LATEST}-linux-x86_64.tar.gz"
 ARCH_ARM64="https://github.com/supertuxkart/stk-code/releases/download/${LATEST}/SuperTuxKart-${LATEST}-linux-arm64.tar.gz"
 
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/supertuxkart/extra/supertuxkart-logo.png"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/supertuxkart/extra/supertuxkart-logo.png"
 
 # Determine system architecture
 ARCH=$(uname -m)

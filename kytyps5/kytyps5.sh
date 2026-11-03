@@ -18,8 +18,8 @@ batocera_conf="/userdata/system/batocera.conf"
 work_dir="/userdata/system/.kytyps5-install-tmp"
 # Python's per-user site-packages, as seen by EmulationStation (HOME=/userdata/system)
 user_site=$(HOME=/userdata/system python3 -c 'import site; print(site.getusersitepackages())')
-base_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/kytyps5"
-bua_url="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/app"
+base_url="https://github.com/KevoBato/sbua/raw/main/kytyps5"
+bua_url="https://github.com/KevoBato/sbua/raw/main/app"
 releases_api="https://api.github.com/repos/KytyPS5/KytyPS5/releases?per_page=15"
 
 fail() {

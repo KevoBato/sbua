@@ -4,12 +4,12 @@
 APPNAME="Amazon Luna"
 APPDIR="/userdata/system/add-ons/google-chrome"
 APPPATH="$APPDIR/GoogleChrome.AppImage"
-CHROME_INSTALLER_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/chrome/chrome.sh"
+CHROME_INSTALLER_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/chrome/chrome.sh"
 PORT_SCRIPT="/userdata/roms/ports/AmazonLuna.sh"
 ICON_PATH="/userdata/roms/ports/images/amazonluna.png"
 KEYS_PATH="/userdata/roms/ports/AmazonLuna.sh.keys"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/amazonluna/extra/amazonluna.png"
-KEYS_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/amazonluna/extra/AmazonLuna.sh.keys"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/amazonluna/extra/amazonluna.png"
+KEYS_URL="https://github.com/KevoBato/sbua/raw/refs/heads/main/amazonluna/extra/AmazonLuna.sh.keys"
 GAMELIST="/userdata/roms/ports/gamelist.xml"
 
 # Step 1: Detect system architecture

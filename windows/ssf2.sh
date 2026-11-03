@@ -8,7 +8,7 @@ DEST_DIR="/userdata/roms/windows"
 MESSAGE="Keyboard & Mouse required to set up initial controller config via in game menu."  # Leave empty if no message is needed
 GAME_LIST="/userdata/roms/windows/gamelist.xml"
 APP_NAME="Super Smash Flash 2"
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/windows/extra/ssf2-logo.jpg"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/windows/extra/ssf2-logo.jpg"
 LOGO_PATH="/userdata/roms/windows/images/ssf2-logo.jpg"
 
 # Ensure destination directory exists

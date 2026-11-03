@@ -4,7 +4,7 @@
 # through CasaOS, and the CasaOS data dir. Asks first when CasaOS has apps
 # installed; to remove them without asking (in the BUA app: LB+RB on the
 # installed apps screen):
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/casaos_uninstall.sh | bash -s -- --ignore-warning
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/casaos_uninstall.sh | bash -s -- --ignore-warning
 
 APPNAME="CasaOS"
 data_dir="/userdata/system/add-ons/${APPNAME,,}"

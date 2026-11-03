@@ -4,7 +4,7 @@
 # image and volume. Asks first when other apps run on Docker; to remove it
 # without asking, no matter what depends on it (in the BUA app: LB+RB on the
 # installed apps screen):
-#   curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/refs/heads/main/docker/docker_uninstall.sh | bash -s -- --ignore-warning
+#   curl -L https://github.com/KevoBato/sbua/raw/refs/heads/main/docker/docker_uninstall.sh | bash -s -- --ignore-warning
 
 directory="${HOME:-/userdata/system}/batocera-containers"
 filename="batocera-containers"

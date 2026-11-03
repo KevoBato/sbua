@@ -16,7 +16,7 @@ APP_CONFIG_DIR="${CONFIGS_DIR}/${APP_NAME,,}"
 APPNAME="PeaZip"
 DESKTOP_FILE="/usr/share/applications/${APPNAME}.desktop"
 PERSISTENT_DESKTOP="/userdata/system/configs/${APPNAME,,}/${APPNAME}.desktop"
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/${APPNAME,,}/extra/peazip-icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/${APPNAME,,}/extra/peazip-icon.png"
 # Ensure directories exist
 echo "Creating necessary directories..."
 mkdir -p "$APP_CONFIG_DIR" "$ADDONS_DIR/${APP_NAME,,}"

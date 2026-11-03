@@ -5,7 +5,7 @@ APPNAME="OBS"
 REPO_BASE_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/releases/download/AppImages/"
 AMD_SUFFIX="obs.AppImage"
 ARM_SUFFIX=""
-ICON_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/obs/extra/icon.png"
+ICON_URL="https://github.com/KevoBato/sbua/raw/main/obs/extra/icon.png"
 
 # Directories
 ADDONS_DIR="/userdata/system/add-ons"

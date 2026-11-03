@@ -5,7 +5,7 @@ APP_NAME="Brave"
 REPO="srevinsaju/Brave-AppImage"
 AMD_SUFFIX="x86_64.AppImage"
 ARM_SUFFIX=""
-LOGO_URL="https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/brave/extra/brave-logo.png"
+LOGO_URL="https://github.com/KevoBato/sbua/raw/main/brave/extra/brave-logo.png"
 
 # -----------------------------------------------------------------------------------------------------------------
 

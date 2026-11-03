@@ -18,27 +18,27 @@ fi
 case $CHOICE in
     vanilla)
         echo "You chose Wine Vanilla and Proton."
-        curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/wine-custom/vanilla.sh | bash
+        curl -L https://github.com/KevoBato/sbua/raw/main/wine-custom/vanilla.sh | bash
         ;;
     tkg)
         echo "You chose Wine-tkg staging."
-        curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/wine-custom/tkg.sh | bash
+        curl -L https://github.com/KevoBato/sbua/raw/main/wine-custom/tkg.sh | bash
         ;;
     wine-ge)
         echo "You chose Wine-GE Custom."
-        curl -L  https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/wine-custom/wine-ge.sh | bash
+        curl -L  https://github.com/KevoBato/sbua/raw/main/wine-custom/wine-ge.sh | bash
         ;;
     ge-proton)
         echo "You chose GE-Proton."
-        curl -L  https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/wine-custom/ge-proton.sh | bash
+        curl -L  https://github.com/KevoBato/sbua/raw/main/wine-custom/ge-proton.sh | bash
         ;;
     steamy)
         echo "You chose Steamy-AIO."
-        curl -L  https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/wine-custom/steamy.sh | bash
+        curl -L  https://github.com/KevoBato/sbua/raw/main/wine-custom/steamy.sh | bash
         ;;
     v40)
         echo "You chose V40 stock wine."
-        curl -L https://github.com/batocera-unofficial-addons/batocera-unofficial-addons/raw/main/v40wine/v40wine.sh | bash
+        curl -L https://github.com/KevoBato/sbua/raw/main/v40wine/v40wine.sh | bash
         ;;
     *)
         echo "Invalid choice or no choice made. Exiting."
